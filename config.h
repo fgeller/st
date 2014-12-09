@@ -87,7 +87,7 @@ static unsigned int defaultcs = 1;
  * complex.
  */
 static unsigned int defaultitalic = 11;
-static unsigned int defaultunderline = 7;
+static unsigned int defaultunderline = 1;
 
 /* Internal mouse shortcuts. */
 /* Beware that overloading Button1 will disable the selection. */
