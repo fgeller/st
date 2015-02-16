@@ -101,15 +101,16 @@ static Mousekey mshortcuts[] = {
 #define MODKEY Mod1Mask
 
 static Shortcut shortcuts[] = {
-    /* mask                 keysym          function        argument */
-    { ControlMask,          XK_Print,       toggleprinter,  {.i =  0} },
-    { ShiftMask,            XK_Print,       printscreen,    {.i =  0} },
-    { XK_ANY_MOD,           XK_Print,       printsel,       {.i =  0} },
-    { Mod4Mask,             XK_Up,          xzoom,          {.i = +1} },
-    { Mod4Mask,             XK_Down,        xzoom,          {.i = -1} },
-    { Mod4Mask|ShiftMask,   XK_V,           clippaste,      {.i =  0} },
-    { Mod4Mask,             XK_V,           selpaste,       {.i =  0} },
-    { MODKEY,               XK_Num_Lock,    numlock,        {.i =  0} },
+    /* mask                  keysym          function        argument */
+    { ControlMask,           XK_Print,       toggleprinter,  {.i =  0} },
+    { ShiftMask,             XK_Print,       printscreen,    {.i =  0} },
+    { XK_ANY_MOD,            XK_Print,       printsel,       {.i =  0} },
+    { Mod4Mask,              XK_Up,          xzoom,          {.i = +1} },
+    { Mod4Mask,              XK_Down,        xzoom,          {.i = -1} },
+    { Mod4Mask,              XK_Left,        clippaste,      {.i =  0} },
+    { Mod4Mask,              XK_Right,       selpaste,       {.i =  0} },
+    { ControlMask,           XK_V,           clippaste,      {.i =  0} },
+    { MODKEY,                XK_Num_Lock,    numlock,        {.i =  0} },
 };
 
 /*
