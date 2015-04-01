@@ -59,7 +59,7 @@ static const char *colorname[] = {
     "#7cafc2",  /*  4: blue     */
     "#ba8baf",  /*  5: magenta  */
     "#86c1b9",  /*  6: cyan     */
-    "#f8f8f8",  /*  7: white    */
+    "#ffffff",  /*  7: white    */
 
     "#181818",  /*  8: brblack  */
     "#ab4642",  /*  9: brred    */
@@ -68,7 +68,7 @@ static const char *colorname[] = {
     "#7cafc2",  /* 12: brblue   */
     "#ba8baf",  /* 13: brmagenta*/
     "#86c1b9",  /* 14: brcyan   */
-    "#f8f8f8",  /* 15: brwhite  */
+    "#ffffff",  /* 15: brwhite  */
 };
 // https://github.com/chriskempson/base16
 
